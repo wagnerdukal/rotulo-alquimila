@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rotulo-almaderma
+    runtime: python
+    buildCommand: ""
+    startCommand: python server.py
+    envVars:
+      - key: PORT
+        value: 4000

@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Julio",
+      "email": "julio@almaderma.com",
+      "senha": "123456",
+      "is_admin": false,
+      "pode_visualizar": true,
+      "pode_check": true,
+      "pode_editar": false,
+      "pode_excluir": false,
+      "pode_gerenciar_produtos": false,
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Wagner Batista Rocha",
+      "email": "wagner@almaderma.com",
+      "senha": "123456",
+      "is_admin": true,
+      "pode_visualizar": true,
+      "pode_check": true,
+      "pode_editar": true,
+      "pode_excluir": true,
+      "pode_gerenciar_produtos": true,
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Administrador",
+      "email": "admin@almaderma.com",
+      "senha": "123456",
+      "is_admin": true,
+      "pode_visualizar": true,
+      "pode_check": true,
+      "pode_editar": true,
+      "pode_excluir": true,
+      "pode_gerenciar_produtos": true,
+      "ativo": true
+    },
+    {
+      "nome": "Roberta",
+      "email": "roberta@almaderma.com",
+      "senha": "123456",
+      "is_admin": false,
+      "pode_visualizar": true,
+      "pode_check": false,
+      "pode_editar": true,
+      "pode_excluir": true,
+      "pode_gerenciar_produtos": false,
+      "ativo": true,
+      "id": 1781317303686
+    },
+    {
+      "nome": "marina",
+      "email": "marina@almaderma.com",
+      "senha": "123456",
+      "is_admin": false,
+      "pode_visualizar": false,
+      "pode_check": false,
+      "pode_editar": false,
+      "pode_excluir": false,
+      "pode_gerenciar_produtos": true,
+      "ativo": true,
+      "id": 1781317365011
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "12335",
+      "name": "clonapure"
+    },
+    {
+      "id": 2,
+      "code": "12345",
+      "name": "clonapure env"
+    }
+  ],
+  "orders": [
+    {
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 548,
+      "lot": "854684",
+      "mfg": "2026-06-06",
+      "exp": "2026-06-25",
+      "color": "Branco",
+      "printed": false,
+      "requester": "qwer",
+      "createdBy": "Roberta",
+      "createdAt": "2026-06-13T02:24:46.103Z",
+      "id": 1781317486113
+    },
+    {
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 123,
+      "lot": "352345",
+      "mfg": "2026-05-31",
+      "exp": "2026-07-08",
+      "color": "Branco",
+      "printed": false,
+      "requester": "werwe",
+      "createdBy": "Roberta",
+      "createdAt": "2026-06-13T02:24:34.141Z",
+      "id": 1781317474457
+    },
+    {
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 123,
+      "lot": "423423",
+      "mfg": "2026-06-10",
+      "exp": "2026-06-24",
+      "color": "Branco",
+      "printed": false,
+      "requester": "r23r",
+      "createdBy": "Roberta",
+      "createdAt": "2026-06-13T02:24:18.470Z",
+      "id": 1781317458482
+    },
+    {
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 324,
+      "lot": "2352344",
+      "mfg": "2026-06-09",
+      "exp": "2026-06-22",
+      "color": "Branco",
+      "printed": false,
+      "requester": "asd",
+      "createdBy": "Roberta",
+      "createdAt": "2026-06-13T02:24:05.130Z",
+      "id": 1781317445447
+    },
+    {
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 12,
+      "lot": "124234",
+      "mfg": "2026-06-09",
+      "exp": "2026-06-24",
+      "color": "Branco",
+      "printed": false,
+      "requester": "fafa",
+      "createdBy": "Roberta",
+      "createdAt": "2026-06-13T02:23:52.908Z",
+      "id": 1781317432910
+    },
+    {
+      "id": 1,
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 12,
+      "lot": "8485",
+      "mfg": "2026-06-10",
+      "exp": "2026-06-25",
+      "color": "Branco",
+      "printed": true,
+      "requester": "Wagner",
+      "createdBy": "Wagner Batista Rocha",
+      "createdAt": "2026-06-10T08:00:00"
+    },
+    {
+      "id": 2,
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 12,
+      "lot": "54668",
+      "mfg": "2026-06-10",
+      "exp": "2026-06-26",
+      "color": "Branco",
+      "printed": false,
+      "requester": "Wagner",
+      "createdBy": "Wagner Batista Rocha",
+      "createdAt": "2026-06-10T08:15:00"
+    },
+    {
+      "id": 3,
+      "code": "12335",
+      "product": "clonapure",
+      "qty": 15,
+      "lot": "65598",
+      "mfg": "2026-06-10",
+      "exp": "2026-06-25",
+      "color": "Branco",
+      "printed": false,
+      "requester": "Wagner",
+      "createdBy": "Wagner Batista Rocha",
+      "createdAt": "2026-06-10T09:00:00"
+    },
+    {
+      "id": 4,
+      "code": "12345",
+      "product": "clonapure env",
+      "qty": 20,
+      "lot": "45885",
+      "mfg": "2026-06-10",
+      "exp": "2026-09-24",
+      "color": "Branco",
+      "printed": false,
+      "requester": "Wagner",
+      "createdBy": "Wagner Batista Rocha",
+      "createdAt": "2026-06-10T09:30:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "rotulo-almaderma",
+  "version": "1.0.0",
+  "description": "Sistema de Rótulos Almaderma",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.22.5",
+    "sequelize": "^6.37.8"
+  }
+}
