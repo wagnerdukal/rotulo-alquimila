@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+db/data.json
+node_modules/
+package.json
+package-lock.json
+server.js
