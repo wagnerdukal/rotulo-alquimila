@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nome": "Julio",
-      "email": "julio@almaderma.com",
+      "email": "julio@alquimila.com",
       "senha": "123456",
       "is_admin": false,
       "pode_visualizar": true,
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "nome": "Wagner Batista Rocha",
-      "email": "wagner@almaderma.com",
+      "email": "wagner@alquimila.com",
       "senha": "123456",
       "is_admin": true,
       "pode_visualizar": true,
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "nome": "Administrador",
-      "email": "admin@almaderma.com",
+      "email": "admin@alquimila.com",
       "senha": "123456",
       "is_admin": true,
       "pode_visualizar": true,
@@ -41,7 +41,7 @@
     },
     {
       "nome": "Roberta",
-      "email": "roberta@almaderma.com",
+      "email": "roberta@alquimila.com",
       "senha": "123456",
       "is_admin": false,
       "pode_visualizar": true,
@@ -54,7 +54,7 @@
     },
     {
       "nome": "marina",
-      "email": "marina@almaderma.com",
+      "email": "marina@alquimila.com",
       "senha": "123456",
       "is_admin": false,
       "pode_visualizar": false,

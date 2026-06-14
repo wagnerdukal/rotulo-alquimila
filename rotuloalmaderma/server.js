@@ -10,9 +10,9 @@ const DB_PATH = path.join(DB_DIR, 'data.json');
 // ── Dados iniciais ─────────────────────────────────────────────────────
 const DADOS_INICIAIS = {
   users: [
-    { id: 1, nome: "Julio",               email: "julio@almaderma.com",   senha: "123456", is_admin: false, pode_visualizar: true,  pode_check: false, pode_editar: false, pode_excluir: false, pode_gerenciar_produtos: false, ativo: true },
-    { id: 2, nome: "Wagner Batista Rocha",email: "wagner@almaderma.com",  senha: "123456", is_admin: true,  pode_visualizar: true,  pode_check: true,  pode_editar: true,  pode_excluir: true,  pode_gerenciar_produtos: true,  ativo: true },
-    { id: 3, nome: "Administrador",       email: "admin@almaderma.com",   senha: "123456", is_admin: true,  pode_visualizar: true,  pode_check: true,  pode_editar: true,  pode_excluir: true,  pode_gerenciar_produtos: true,  ativo: true },
+    { id: 1, nome: "Julio",               email: "julio@alquimila.com",   senha: "123456", is_admin: false, pode_visualizar: true,  pode_check: false, pode_editar: false, pode_excluir: false, pode_gerenciar_produtos: false, ativo: true },
+    { id: 2, nome: "Wagner Batista Rocha",email: "wagner@alquimila.com",  senha: "123456", is_admin: true,  pode_visualizar: true,  pode_check: true,  pode_editar: true,  pode_excluir: true,  pode_gerenciar_produtos: true,  ativo: true },
+    { id: 3, nome: "Administrador",       email: "admin@alquimila.com",   senha: "123456", is_admin: true,  pode_visualizar: true,  pode_check: true,  pode_editar: true,  pode_excluir: true,  pode_gerenciar_produtos: true,  ativo: true },
   ],
   products: [
     { id: 1, code: "12335", name: "clonapure" },
@@ -141,7 +141,7 @@ app.delete('/api/orders/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log('');
   console.log('  ╔══════════════════════════════════╗');
-  console.log('  ║   🏥  Rotulo Almaderma           ║');
+  console.log('  ║   🏥  Rotulo Alquimila           ║');
   console.log(`  ║   http://localhost:${PORT}          ║`);
   console.log('  ╚══════════════════════════════════╝');
   console.log('');

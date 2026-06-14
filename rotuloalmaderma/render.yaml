@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: rotulo-almaderma
+    name: rotulo-alquimila
     runtime: python
     buildCommand: ""
     startCommand: python server.py

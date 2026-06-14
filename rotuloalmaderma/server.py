@@ -1,5 +1,5 @@
 """
-Servidor Almaderma — Python 3 puro, sem dependências externas.
+Servidor Alquimila — Python 3 puro, sem dependências externas.
   - Desenvolvimento: usa db/data.json
   - Produção (Render): usa Supabase via variáveis de ambiente
       SUPABASE_URL=https://xxxx.supabase.co
@@ -23,9 +23,9 @@ db_lock  = threading.Lock()
 
 DADOS_INICIAIS = {
     "users": [
-        {"id":1,"nome":"Julio",               "email":"julio@almaderma.com",  "senha":"123456","is_admin":False,"pode_visualizar":True, "pode_check":False,"pode_editar":False,"pode_excluir":False,"pode_gerenciar_produtos":False,"ativo":True},
-        {"id":2,"nome":"Wagner Batista Rocha","email":"wagner@almaderma.com", "senha":"123456","is_admin":True, "pode_visualizar":True, "pode_check":True, "pode_editar":True, "pode_excluir":True, "pode_gerenciar_produtos":True, "ativo":True},
-        {"id":3,"nome":"Administrador",       "email":"admin@almaderma.com",  "senha":"123456","is_admin":True, "pode_visualizar":True, "pode_check":True, "pode_editar":True, "pode_excluir":True, "pode_gerenciar_produtos":True, "ativo":True},
+        {"id":1,"nome":"Julio",               "email":"julio@alquimila.com",  "senha":"123456","is_admin":False,"pode_visualizar":True, "pode_check":False,"pode_editar":False,"pode_excluir":False,"pode_gerenciar_produtos":False,"ativo":True},
+        {"id":2,"nome":"Wagner Batista Rocha","email":"wagner@alquimila.com", "senha":"123456","is_admin":True, "pode_visualizar":True, "pode_check":True, "pode_editar":True, "pode_excluir":True, "pode_gerenciar_produtos":True, "ativo":True},
+        {"id":3,"nome":"Administrador",       "email":"admin@alquimila.com",  "senha":"123456","is_admin":True, "pode_visualizar":True, "pode_check":True, "pode_editar":True, "pode_excluir":True, "pode_gerenciar_produtos":True, "ativo":True},
     ],
     "products": [
         {"id":1,"code":"12335","name":"clonapure"},
@@ -253,7 +253,7 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     modo = "Supabase (producao)" if USE_DB else "JSON local (desenvolvimento)"
     server = HTTPServer(("", PORT), Handler)
-    print(f"Almaderma rodando na porta {PORT} | Modo: {modo}")
+    print(f"Alquimila rodando na porta {PORT} | Modo: {modo}")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

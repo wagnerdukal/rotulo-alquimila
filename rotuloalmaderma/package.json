@@ -1,7 +1,7 @@
 {
-  "name": "rotulo-almaderma",
+  "name": "rotulo-alquimila",
   "version": "1.0.0",
-  "description": "Sistema de Rótulos Almaderma",
+  "description": "Sistema de Rótulos Alquimila",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
