@@ -23,7 +23,7 @@ function Navbar({ currentUser, page, setPage, onLogout }) {
                 <span className="text-xs font-black" style={{ color: S.primary }}>💊</span> 
               </div>
               <span className="font-black text-sm tracking-tight" style={{ color: S.fgMuted }}>
-                Alma<span style={{ color: S.primary }}>derma</span>
+                Alm<span style={{ color: S.primary }}>quimila</span>
               </span>
             </div>
 
