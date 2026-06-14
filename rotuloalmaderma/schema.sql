@@ -38,9 +38,9 @@ CREATE TABLE IF NOT EXISTS orders (
 
 -- Dados iniciais ────────────────────────────────────────────────────────────
 INSERT INTO users (id,nome,email,senha,is_admin,pode_visualizar,pode_check,pode_editar,pode_excluir,pode_gerenciar_produtos,ativo) VALUES
-  (1,'Julio',              'julio@artpharma.com',  '123456',false,true, false,false,false,false,true),
-  (2,'Wagner Batista Rocha','wagner@artpharma.com','123456',true, true, true, true, true, true, true),
-  (3,'Administrador',      'admin@artpharma.com',  '123456',true, true, true, true, true, true, true)
+  (1,'Julio',              'julio@almaderma.com',  '123456',false,true, false,false,false,false,true),
+  (2,'Wagner Batista Rocha','wagner@almaderma.com','123456',true, true, true, true, true, true, true),
+  (3,'Administrador',      'admin@almaderma.com',  '123456',true, true, true, true, true, true, true)
 ON CONFLICT (id) DO NOTHING;
 
 INSERT INTO products (id,code,name) VALUES
